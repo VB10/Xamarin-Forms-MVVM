@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HardawreAndroMVVM" x:Class="HardawreAndroMVVM.HardawreAndroMVVMPage">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+    <Entry Text="{Binding userName}" Placeholder="username enter" />
+        <Entry Text="{Binding userSurname}" Placeholder="usersurname enter" />
+        <Label Text="{Binding fullName}" />
+    </StackLayout>
+    
+</ContentPage>
